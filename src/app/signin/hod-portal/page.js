@@ -16,6 +16,7 @@ import DisplayInternships from '../../../../comp/components/Internship_Cont/Disp
 import DisplaySports from '../../../../comp/components/sports_cont/disp_sports';
 import styles from '../../../../comp/styles/sidebar.module.css';
 import DisplayBookChapters from '../../../../comp/components/Book_Chapter_Cont/Disp_Chapter';
+import Head from 'next/head';
 const HodSection = () => {
   const router = useRouter();
   

@@ -10,6 +10,7 @@ import InternshipManager from '../../../../comp/components/Internship_Cont/Mange
 import StudentData from '../../../../comp/components/Std_Details/Std-Data';
 import SportManager from '../../../../comp/components/sports_cont/manage_sports';
 import styles from '../../../../comp/styles/sidebar.module.css';
+import Head from 'next/head';
 
 const facultySection = () => {
   const router = useRouter();

@@ -13,6 +13,7 @@ import PublicationManager from '../../../../comp/components/Publications_Cont/Ma
 import BookChapterManager from '../../../../comp/components/Book_Chapter_Cont/Manage_chapter';
 import DisplaySports from '../../../../comp/components/sports_cont/disp_sports';
 import styles from '../../../../comp/styles/sidebar.module.css';
+import Head from 'next/head';
 
 const facultySection = () => {
   const router = useRouter();

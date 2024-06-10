@@ -3,6 +3,7 @@ import { signIn, useSession, signOut } from "next-auth/react";
 import { useEffect, useState } from "react";
 import Axios from 'axios';
 import { useRouter } from "next/navigation";
+import Head from 'next/head';
 
 const SignIn = () => {
   const { status, data: session } = useSession();
